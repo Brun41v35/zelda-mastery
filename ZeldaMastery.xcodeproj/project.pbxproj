@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E17BD812C7988550095562E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BD802C7988550095562E /* AppDelegate.swift */; };
+		7E17BD832C7988550095562E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BD822C7988550095562E /* SceneDelegate.swift */; };
+		7E17BD852C7988550095562E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BD842C7988550095562E /* ViewController.swift */; };
+		7E17BD882C7988550095562E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E17BD872C7988550095562E /* Base */; };
+		7E17BD8A2C7988570095562E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E17BD892C7988570095562E /* Assets.xcassets */; };
+		7E17BD8D2C7988570095562E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E17BD8C2C7988570095562E /* Base */; };
+		7E17BD982C7988570095562E /* ZeldaMasteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BD972C7988570095562E /* ZeldaMasteryTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E17BD942C7988570095562E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E17BD752C7988550095562E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E17BD7C2C7988550095562E;
+			remoteInfo = ZeldaMastery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E17BD7D2C7988550095562E /* ZeldaMastery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeldaMastery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E17BD802C7988550095562E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E17BD822C7988550095562E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E17BD842C7988550095562E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E17BD872C7988550095562E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E17BD892C7988570095562E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E17BD8C2C7988570095562E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E17BD8E2C7988570095562E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E17BD932C7988570095562E /* ZeldaMasteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeldaMasteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E17BD972C7988570095562E /* ZeldaMasteryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaMasteryTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E17BD7A2C7988550095562E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E17BD902C7988570095562E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E17BD742C7988550095562E = {
+			isa = PBXGroup;
+			children = (
+				7E17BD7F2C7988550095562E /* ZeldaMastery */,
+				7E17BD962C7988570095562E /* ZeldaMasteryTests */,
+				7E17BD7E2C7988550095562E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E17BD7E2C7988550095562E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E17BD7D2C7988550095562E /* ZeldaMastery.app */,
+				7E17BD932C7988570095562E /* ZeldaMasteryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E17BD7F2C7988550095562E /* ZeldaMastery */ = {
+			isa = PBXGroup;
+			children = (
+				7E17BD802C7988550095562E /* AppDelegate.swift */,
+				7E17BD822C7988550095562E /* SceneDelegate.swift */,
+				7E17BD842C7988550095562E /* ViewController.swift */,
+				7E17BD862C7988550095562E /* Main.storyboard */,
+				7E17BD892C7988570095562E /* Assets.xcassets */,
+				7E17BD8B2C7988570095562E /* LaunchScreen.storyboard */,
+				7E17BD8E2C7988570095562E /* Info.plist */,
+			);
+			path = ZeldaMastery;
+			sourceTree = "<group>";
+		};
+		7E17BD962C7988570095562E /* ZeldaMasteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E17BD972C7988570095562E /* ZeldaMasteryTests.swift */,
+			);
+			path = ZeldaMasteryTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E17BD7C2C7988550095562E /* ZeldaMastery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E17BDA72C7988570095562E /* Build configuration list for PBXNativeTarget "ZeldaMastery" */;
+			buildPhases = (
+				7E17BD792C7988550095562E /* Sources */,
+				7E17BD7A2C7988550095562E /* Frameworks */,
+				7E17BD7B2C7988550095562E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeldaMastery;
+			productName = ZeldaMastery;
+			productReference = 7E17BD7D2C7988550095562E /* ZeldaMastery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E17BD922C7988570095562E /* ZeldaMasteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E17BDAA2C7988570095562E /* Build configuration list for PBXNativeTarget "ZeldaMasteryTests" */;
+			buildPhases = (
+				7E17BD8F2C7988570095562E /* Sources */,
+				7E17BD902C7988570095562E /* Frameworks */,
+				7E17BD912C7988570095562E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E17BD952C7988570095562E /* PBXTargetDependency */,
+			);
+			name = ZeldaMasteryTests;
+			productName = ZeldaMasteryTests;
+			productReference = 7E17BD932C7988570095562E /* ZeldaMasteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E17BD752C7988550095562E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7E17BD7C2C7988550095562E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7E17BD922C7988570095562E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7E17BD7C2C7988550095562E;
+					};
+				};
+			};
+			buildConfigurationList = 7E17BD782C7988550095562E /* Build configuration list for PBXProject "ZeldaMastery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E17BD742C7988550095562E;
+			productRefGroup = 7E17BD7E2C7988550095562E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E17BD7C2C7988550095562E /* ZeldaMastery */,
+				7E17BD922C7988570095562E /* ZeldaMasteryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E17BD7B2C7988550095562E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E17BD8A2C7988570095562E /* Assets.xcassets in Resources */,
+				7E17BD8D2C7988570095562E /* Base in Resources */,
+				7E17BD882C7988550095562E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E17BD912C7988570095562E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E17BD792C7988550095562E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E17BD852C7988550095562E /* ViewController.swift in Sources */,
+				7E17BD812C7988550095562E /* AppDelegate.swift in Sources */,
+				7E17BD832C7988550095562E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E17BD8F2C7988570095562E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E17BD982C7988570095562E /* ZeldaMasteryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E17BD952C7988570095562E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E17BD7C2C7988550095562E /* ZeldaMastery */;
+			targetProxy = 7E17BD942C7988570095562E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E17BD862C7988550095562E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E17BD872C7988550095562E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E17BD8B2C7988570095562E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E17BD8C2C7988570095562E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E17BDA52C7988570095562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E17BDA62C7988570095562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E17BDA82C7988570095562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXX4852TTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeldaMastery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosilva.ZeldaMastery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E17BDA92C7988570095562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXX4852TTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeldaMastery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosilva.ZeldaMastery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7E17BDAB2C7988570095562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXX4852TTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosilva.ZeldaMasteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeldaMastery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeldaMastery";
+			};
+			name = Debug;
+		};
+		7E17BDAC2C7988570095562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXX4852TTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brunosilva.ZeldaMasteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeldaMastery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeldaMastery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E17BD782C7988550095562E /* Build configuration list for PBXProject "ZeldaMastery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E17BDA52C7988570095562E /* Debug */,
+				7E17BDA62C7988570095562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E17BDA72C7988570095562E /* Build configuration list for PBXNativeTarget "ZeldaMastery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E17BDA82C7988570095562E /* Debug */,
+				7E17BDA92C7988570095562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E17BDAA2C7988570095562E /* Build configuration list for PBXNativeTarget "ZeldaMasteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E17BDAB2C7988570095562E /* Debug */,
+				7E17BDAC2C7988570095562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E17BD752C7988550095562E /* Project object */;
+}
