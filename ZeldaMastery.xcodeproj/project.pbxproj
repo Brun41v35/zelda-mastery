@@ -35,6 +35,7 @@
 		7E17BD932C7988570095562E /* ZeldaMasteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeldaMasteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E17BD972C7988570095562E /* ZeldaMasteryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaMasteryTests.swift; sourceTree = "<group>"; };
 		7E9589592C7A2513007DD438 /* ObjectiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveViewController.swift; sourceTree = "<group>"; };
+		7E95895B2C7A29A1007DD438 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		7E17BD742C7988550095562E = {
 			isa = PBXGroup;
 			children = (
+				7E95895B2C7A29A1007DD438 /* README.md */,
 				7E17BD7F2C7988550095562E /* ZeldaMastery */,
 				7E17BD962C7988570095562E /* ZeldaMasteryTests */,
 				7E17BD7E2C7988550095562E /* Products */,
@@ -450,9 +452,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = brunosilva.ZeldaMasteryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeldaMastery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeldaMastery";
 			};
 			name = Debug;
@@ -470,9 +476,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = brunosilva.ZeldaMasteryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeldaMastery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeldaMastery";
 			};
 			name = Release;
