@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		7E17BD812C7988550095562E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BD802C7988550095562E /* AppDelegate.swift */; };
 		7E17BD832C7988550095562E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BD822C7988550095562E /* SceneDelegate.swift */; };
-		7E17BD852C7988550095562E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BD842C7988550095562E /* ViewController.swift */; };
-		7E17BD882C7988550095562E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E17BD872C7988550095562E /* Base */; };
 		7E17BD8A2C7988570095562E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E17BD892C7988570095562E /* Assets.xcassets */; };
 		7E17BD8D2C7988570095562E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E17BD8C2C7988570095562E /* Base */; };
 		7E17BD982C7988570095562E /* ZeldaMasteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BD972C7988570095562E /* ZeldaMasteryTests.swift */; };
+		7E95895A2C7A2513007DD438 /* ObjectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9589592C7A2513007DD438 /* ObjectiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +29,12 @@
 		7E17BD7D2C7988550095562E /* ZeldaMastery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeldaMastery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E17BD802C7988550095562E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E17BD822C7988550095562E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E17BD842C7988550095562E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E17BD872C7988550095562E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E17BD892C7988570095562E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E17BD8C2C7988570095562E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E17BD8E2C7988570095562E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E17BD932C7988570095562E /* ZeldaMasteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeldaMasteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E17BD972C7988570095562E /* ZeldaMasteryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaMasteryTests.swift; sourceTree = "<group>"; };
+		7E9589592C7A2513007DD438 /* ObjectiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +76,9 @@
 		7E17BD7F2C7988550095562E /* ZeldaMastery */ = {
 			isa = PBXGroup;
 			children = (
-				7E17BD802C7988550095562E /* AppDelegate.swift */,
-				7E17BD822C7988550095562E /* SceneDelegate.swift */,
-				7E17BD842C7988550095562E /* ViewController.swift */,
-				7E17BD862C7988550095562E /* Main.storyboard */,
-				7E17BD892C7988570095562E /* Assets.xcassets */,
-				7E17BD8B2C7988570095562E /* LaunchScreen.storyboard */,
-				7E17BD8E2C7988570095562E /* Info.plist */,
+				7E9589582C7A2489007DD438 /* Controllers */,
+				7E9589542C7A22B8007DD438 /* AppDelegate */,
+				7E9589552C7A22D4007DD438 /* Resources */,
 			);
 			path = ZeldaMastery;
 			sourceTree = "<group>";
@@ -95,6 +89,33 @@
 				7E17BD972C7988570095562E /* ZeldaMasteryTests.swift */,
 			);
 			path = ZeldaMasteryTests;
+			sourceTree = "<group>";
+		};
+		7E9589542C7A22B8007DD438 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7E17BD802C7988550095562E /* AppDelegate.swift */,
+				7E17BD822C7988550095562E /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7E9589552C7A22D4007DD438 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E17BD892C7988570095562E /* Assets.xcassets */,
+				7E17BD8B2C7988570095562E /* LaunchScreen.storyboard */,
+				7E17BD8E2C7988570095562E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E9589582C7A2489007DD438 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E9589592C7A2513007DD438 /* ObjectiveViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +201,6 @@
 			files = (
 				7E17BD8A2C7988570095562E /* Assets.xcassets in Resources */,
 				7E17BD8D2C7988570095562E /* Base in Resources */,
-				7E17BD882C7988550095562E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E17BD852C7988550095562E /* ViewController.swift in Sources */,
+				7E95895A2C7A2513007DD438 /* ObjectiveViewController.swift in Sources */,
 				7E17BD812C7988550095562E /* AppDelegate.swift in Sources */,
 				7E17BD832C7988550095562E /* SceneDelegate.swift in Sources */,
 			);
@@ -223,14 +243,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7E17BD862C7988550095562E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E17BD872C7988550095562E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E17BD8B2C7988570095562E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,10 +382,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QXX4852TTD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZeldaMastery/Info.plist;
+				INFOPLIST_FILE = ZeldaMastery/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -402,10 +414,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QXX4852TTD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZeldaMastery/Info.plist;
+				INFOPLIST_FILE = ZeldaMastery/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
